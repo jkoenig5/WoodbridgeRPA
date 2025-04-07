@@ -29,7 +29,7 @@ SCOPES = ['https://www.googleapis.com/auth/drive']
 creds = service_account.Credentials.from_service_account_file("service_account.json", scopes=SCOPES)
 drive_service = build('drive', 'v3', credentials=creds)
 
-FOLDER_ID = "1uSkl46cSRdLvcfXOIjL6RPqEq2vy0CM_"  # your shared Drive folder ID
+FOLDER_ID = "1AvwPgmI64JzmTv_8ia5JhSe3il99uFT8"  # your shared Drive folder ID
 
 # Upload DOCX file
 def upload_file_to_folder(file_path, file_name, mimetype, folder_id):
